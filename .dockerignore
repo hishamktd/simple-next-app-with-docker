@@ -4,17 +4,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Next.js
+.next/
+out/
+build
+dist
+
 # Testing
 coverage
 .nyc_output
-
-# Next.js
-.next
-out
-build
-
-# Production
-dist
 
 # Misc
 .DS_Store
@@ -33,18 +31,29 @@ dist
 # Vercel
 .vercel
 
+# Typescript
+*.tsbuildinfo
+
 # IDE
 .vscode
 .idea
+*.swp
+*.swo
+*~
 
 # Git
 .git
 .gitignore
 
-# Docker
-Dockerfile
-.dockerignore
-docker-compose.yml
+# CI/CD
+.github
+.gitlab-ci.yml
 
-# README
+# Documentation
 README.md
+docs/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
